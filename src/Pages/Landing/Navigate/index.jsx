@@ -62,6 +62,12 @@ export const Navigate = () => {
           type="button"
           className="bg-[#1EBBD7] border border-[#1EBBD7] py-1 px-3 rounded-md text-[#f8feff] font-semibold"
         />
+        <ButtonUi
+          onClick={() => navigate("/register")}
+          label="Register"
+          type="button"
+          className="bg-transparent border border-[#1EBBD7] py-1 px-3 rounded-md text-[#1EBBD7] font-semibold"
+        />
       </div>
     </nav>
   );
